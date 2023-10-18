@@ -1,7 +1,9 @@
 # Calculadora para saber a idade com base no ano de nascimento
 import datetime
 
-def calculadora_idade(): # Início da função calculadora
+# Início da função
+
+def calculadora_idade():
     try:
         ano_nascimento = int(input("Digite o ano de nascimento: "))
         ano_atual = datetime.datetime.now().year
@@ -10,7 +12,7 @@ def calculadora_idade(): # Início da função calculadora
     except ValueError:
         print("Digite um ano válido.")
 """
-Para Calcular a idade
+Para Calcular a idade 
 é só informar o ano 
 """
 calculadora_idade()
